@@ -1,3 +1,5 @@
+'use strict';
+
 const supertest = require("supertest");
 const should = require("should");
 
