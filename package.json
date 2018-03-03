@@ -11,6 +11,10 @@
     "start": "node app.js",
     "test": "mocha"
   },
+  "engines": {
+    "node": "9.7.1",
+    "npm": "5.6.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ilmsg/nodejs-simple-code.git"
