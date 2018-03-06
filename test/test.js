@@ -2,7 +2,9 @@ const supertest = require("supertest");
 const should = require("should");
 
 const port = process.env.PORT || '4000';
-const server = supertest.agent("http://localhost:" + port);
+
+const app = require('../app.js');
+const server = supertest(app);
 
 describe("SAMPLE unit test", function(){
   it("should return home page",function(done){
